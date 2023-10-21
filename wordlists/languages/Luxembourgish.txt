@@ -1,0 +1,1305 @@
+##name Luxembourgish
+
+##ownname L�tzebuergesch
+
+##isocode lb_LU
+
+##plural 0
+
+##textdir ltr
+
+##digitsep .
+
+##digitsepcur .
+
+##decimalsep ,
+
+##winlangid 0x046e
+
+##grflangid 0x23
+
+
+
+# $Id$
+
+
+# This file is part of OpenTTD.
+
+# OpenTTD is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
+
+# OpenTTD is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+# See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with OpenTTD. If not, see <http://www.gnu.org/licenses/>.
+
+
+
+##id 0x0000
+
+STR_NULL                                                        :
+
+STR_EMPTY                                                       :
+
+STR_UNDEFINED                                                   :(ondefin�ierten string)
+
+STR_JUST_NOTHING                                                :N�ischt
+
+
+# Cargo related strings
+
+# Plural cargo name
+
+STR_CARGO_PLURAL_NOTHING                                        :
+
+STR_CARGO_PLURAL_PASSENGERS                                     :Passag�ier
+
+STR_CARGO_PLURAL_COAL                                           :Kuelen
+
+STR_CARGO_PLURAL_MAIL                                           :Post
+
+STR_CARGO_PLURAL_OIL                                            :Ueleg
+
+STR_CARGO_PLURAL_LIVESTOCK                                      :B�ischten
+
+STR_CARGO_PLURAL_GOODS                                          :Wueren
+
+STR_CARGO_PLURAL_GRAIN                                          :Kaar
+
+STR_CARGO_PLURAL_WOOD                                           :Holz
+
+STR_CARGO_PLURAL_IRON_ORE                                       :Eisnenerz
+
+STR_CARGO_PLURAL_STEEL                                          :Stol
+
+STR_CARGO_PLURAL_VALUABLES                                      :Wertsaachen
+
+STR_CARGO_PLURAL_COPPER_ORE                                     :Koffererz
+
+STR_CARGO_PLURAL_MAIZE                                          :Mais
+
+STR_CARGO_PLURAL_FRUIT                                          :Friichten
+
+STR_CARGO_PLURAL_DIAMONDS                                       :Diamanten
+
+STR_CARGO_PLURAL_FOOD                                           :Iessen
+
+STR_CARGO_PLURAL_PAPER                                          :Pabeier
+
+STR_CARGO_PLURAL_GOLD                                           :Gold
+
+STR_CARGO_PLURAL_WATER                                          :Waasser
+
+STR_CARGO_PLURAL_WHEAT                                          :Weess
+
+STR_CARGO_PLURAL_RUBBER                                         :Kautschuk
+
+STR_CARGO_PLURAL_SUGAR                                          :Zocker
+
+STR_CARGO_PLURAL_TOYS                                           :Spillsaachen
+
+STR_CARGO_PLURAL_CANDY                                          :S�issegkeeten
+
+STR_CARGO_PLURAL_COLA                                           :Cola
+
+STR_CARGO_PLURAL_COTTON_CANDY                                   :Zockerwatt
+
+STR_CARGO_PLURAL_BUBBLES                                        :Blosen
+
+STR_CARGO_PLURAL_TOFFEE                                         :Karmell
+
+STR_CARGO_PLURAL_BATTERIES                                      :Batterien
+
+STR_CARGO_PLURAL_PLASTIC                                        :Plastik
+
+STR_CARGO_PLURAL_FIZZY_DRINKS                                   :Spruddel-Gedr�nks
+
+
+# Singular cargo name
+
+STR_CARGO_SINGULAR_NOTHING                                      :
+
+STR_CARGO_SINGULAR_PASSENGER                                    :Passag�ier
+
+STR_CARGO_SINGULAR_COAL                                         :Kuelen
+
+STR_CARGO_SINGULAR_MAIL                                         :Post
+
+STR_CARGO_SINGULAR_OIL                                          :Ueleg
+
+STR_CARGO_SINGULAR_LIVESTOCK                                    :B�ischt
+
+STR_CARGO_SINGULAR_GOODS                                        :Wuer
+
+STR_CARGO_SINGULAR_GRAIN                                        :Kaar
+
+STR_CARGO_SINGULAR_WOOD                                         :Holz
+
+STR_CARGO_SINGULAR_IRON_ORE                                     :Eisenerz
+
+STR_CARGO_SINGULAR_STEEL                                        :Stol
+
+STR_CARGO_SINGULAR_VALUABLES                                    :Wertsaach
+
+STR_CARGO_SINGULAR_COPPER_ORE                                   :Koffererz
+
+STR_CARGO_SINGULAR_MAIZE                                        :Mais
+
+STR_CARGO_SINGULAR_FRUIT                                        :Friichten
+
+STR_CARGO_SINGULAR_DIAMOND                                      :Diamanten
+
+STR_CARGO_SINGULAR_FOOD                                         :Iessen
+
+STR_CARGO_SINGULAR_PAPER                                        :Pabeier
+
+STR_CARGO_SINGULAR_GOLD                                         :Gold
+
+STR_CARGO_SINGULAR_WATER                                        :Waasser
+
+STR_CARGO_SINGULAR_WHEAT                                        :Weess
+
+STR_CARGO_SINGULAR_RUBBER                                       :Kautschuck
+
+STR_CARGO_SINGULAR_SUGAR                                        :Zocker
+
+STR_CARGO_SINGULAR_TOY                                          :Spillsaach
+
+STR_CARGO_SINGULAR_CANDY                                        :S�issegkeet
+
+STR_CARGO_SINGULAR_COLA                                         :Cola
+
+STR_CARGO_SINGULAR_COTTON_CANDY                                 :Zockerwatt
+
+STR_CARGO_SINGULAR_BUBBLE                                       :Blos
+
+STR_CARGO_SINGULAR_TOFFEE                                       :Karmell
+
+STR_CARGO_SINGULAR_BATTERY                                      :Batterie
+
+STR_CARGO_SINGULAR_PLASTIC                                      :Plastik
+
+STR_CARGO_SINGULAR_FIZZY_DRINK                                  :Spruddel-Gedr�nks
+
+
+# Quantity of cargo
+
+STR_QUANTITY_NOTHING                                            :
+
+STR_QUANTITY_PASSENGERS                                         :{COMMA} Passag�ier
+
+STR_QUANTITY_COAL                                               :{WEIGHT} Kuel
+
+STR_QUANTITY_MAIL                                               :{COMMA} Posts{P aak �ck}
+
+STR_QUANTITY_OIL                                                :{VOLUME} Ueleg
+
+STR_QUANTITY_LIVESTOCK                                          :{COMMA} Liewensm�ttelk�scht{P "" en}
+
+STR_QUANTITY_GOODS                                              :{COMMA} Wuerenk�scht{P "" en}
+
+STR_QUANTITY_GRAIN                                              :{WEIGHT} Kaar
+
+STR_QUANTITY_WOOD                                               :{WEIGHT} Holz
+
+STR_QUANTITY_IRON_ORE                                           :{WEIGHT} Eisenerz
+
+STR_QUANTITY_STEEL                                              :{WEIGHT} Stol
+
+STR_QUANTITY_VALUABLES                                          :{COMMA} S{P aak �ck} mat Wertsaachen
+
+STR_QUANTITY_COPPER_ORE                                         :{WEIGHT} Koffererz
+
+STR_QUANTITY_MAIZE                                              :{WEIGHT} Mais
+
+STR_QUANTITY_FRUIT                                              :{WEIGHT} Friichten
+
+STR_QUANTITY_DIAMONDS                                           :{COMMA} S{P aak �ck} mat Diamanten
+
+STR_QUANTITY_FOOD                                               :{WEIGHT} Iessen
+
+STR_QUANTITY_PAPER                                              :{WEIGHT} Pabeier
+
+STR_QUANTITY_GOLD                                               :{COMMA} S{P aak �ck} mat Gold
+
+STR_QUANTITY_WATER                                              :{VOLUME} Waasser
+
+STR_QUANTITY_WHEAT                                              :{WEIGHT} Weess
+
+STR_QUANTITY_RUBBER                                             :{VOLUME} Kautschuck
+
+STR_QUANTITY_SUGAR                                              :{WEIGHT} Zocker
+
+STR_QUANTITY_TOYS                                               :{COMMA} Spillsaach{P "" en}
+
+STR_QUANTITY_SWEETS                                             :{COMMA} S{P aak �ck} mat S�issegkeeten
+
+STR_QUANTITY_COLA                                               :{VOLUME} Cola
+
+STR_QUANTITY_CANDYFLOSS                                         :{WEIGHT} Zockerwatt
+
+STR_QUANTITY_BUBBLES                                            :{COMMA} Blos{P "" en}
+
+STR_QUANTITY_TOFFEE                                             :{WEIGHT} Karmel
+
+STR_QUANTITY_BATTERIES                                          :{COMMA} Batterie{P "" n}
+
+STR_QUANTITY_PLASTIC                                            :{VOLUME} Plastik
+
+STR_QUANTITY_FIZZY_DRINKS                                       :{COMMA} Spruddelgedr�nks
+
+STR_QUANTITY_N_A                                                :N/A
+
+
+# Two letter abbreviation of cargo name
+
+STR_ABBREV_NOTHING                                              :
+
+STR_ABBREV_PASSENGERS                                           :{TINYFONT}PS
+
+STR_ABBREV_COAL                                                 :{TINYFONT}KU
+
+STR_ABBREV_MAIL                                                 :{TINYFONT}PO
+
+STR_ABBREV_OIL                                                  :{TINYFONT}UL
+
+STR_ABBREV_LIVESTOCK                                            :{TINYFONT}LI
+
+STR_ABBREV_GOODS                                                :{TINYFONT}WU
+
+STR_ABBREV_GRAIN                                                :{TINYFONT}KA
+
+STR_ABBREV_WOOD                                                 :{TINYFONT}HO
+
+STR_ABBREV_IRON_ORE                                             :{TINYFONT}EE
+
+STR_ABBREV_STEEL                                                :{TINYFONT}ST
+
+STR_ABBREV_VALUABLES                                            :{TINYFONT}WS
+
+STR_ABBREV_COPPER_ORE                                           :{TINYFONT}KE
+
+STR_ABBREV_MAIZE                                                :{TINYFONT}MA
+
+STR_ABBREV_FRUIT                                                :{TINYFONT}FR
+
+STR_ABBREV_DIAMONDS                                             :{TINYFONT}DM
+
+STR_ABBREV_FOOD                                                 :{TINYFONT}IE
+
+STR_ABBREV_PAPER                                                :{TINYFONT}PB
+
+STR_ABBREV_GOLD                                                 :{TINYFONT}GD
+
+STR_ABBREV_WATER                                                :{TINYFONT}WA
+
+STR_ABBREV_WHEAT                                                :{TINYFONT}WE
+
+STR_ABBREV_RUBBER                                               :{TINYFONT}KT
+
+STR_ABBREV_SUGAR                                                :{TINYFONT}ZO
+
+STR_ABBREV_TOYS                                                 :{TINYFONT}SP
+
+STR_ABBREV_SWEETS                                               :{TINYFONT}S�
+
+STR_ABBREV_COLA                                                 :{TINYFONT}CO
+
+STR_ABBREV_CANDYFLOSS                                           :{TINYFONT}ZW
+
+STR_ABBREV_BUBBLES                                              :{TINYFONT}BL
+
+STR_ABBREV_TOFFEE                                               :{TINYFONT}KR
+
+STR_ABBREV_BATTERIES                                            :{TINYFONT}BA
+
+STR_ABBREV_PLASTIC                                              :{TINYFONT}PL
+
+STR_ABBREV_FIZZY_DRINKS                                         :{TINYFONT}KG
+
+STR_ABBREV_NONE                                                 :{TINYFONT}NO
+
+STR_ABBREV_ALL                                                  :{TINYFONT}ALL
+
+
+# 'Mode' of transport for cargoes
+
+STR_PASSENGERS                                                  :Passag�ier
+
+STR_BAGS                                                        :S�ck
+
+STR_TONS                                                        :Tonnen
+
+STR_LITERS                                                      :Liter
+
+STR_ITEMS                                                       :Objeten
+
+STR_CRATES                                                      :K�schten
+
+STR_RES_OTHER                                                   :Aaneres
+
+STR_NOTHING                                                     :
+
+
+# Colours, do not shuffle
+
+STR_COLOUR_DARK_BLUE                                            :Donkelblo
+
+STR_COLOUR_PALE_GREEN                                           :Bleechgr�ng
+
+STR_COLOUR_PINK                                                 :Rosa
+
+STR_COLOUR_YELLOW                                               :Giel
+
+STR_COLOUR_RED                                                  :Rout
+
+STR_COLOUR_LIGHT_BLUE                                           :Hellblo
+
+STR_COLOUR_GREEN                                                :Gr�ng
+
+STR_COLOUR_DARK_GREEN                                           :Donkelgr�ng
+
+STR_COLOUR_BLUE                                                 :Blo
+
+STR_COLOUR_CREAM                                                :Beige
+
+STR_COLOUR_MAUVE                                                :Donkelmoof
+
+STR_COLOUR_PURPLE                                               :Moof
+
+STR_COLOUR_ORANGE                                               :Orange
+
+STR_COLOUR_BROWN                                                :Brong
+
+STR_COLOUR_GREY                                                 :Gro
+
+STR_COLOUR_WHITE                                                :W�iss
+
+
+# Units used in OpenTTD
+
+STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} mph
+
+STR_UNITS_VELOCITY_METRIC                                       :{COMMA} km/h
+
+STR_UNITS_VELOCITY_SI                                           :{COMMA} m/s
+
+
+STR_UNITS_POWER_IMPERIAL                                        :{COMMA}bhp
+
+STR_UNITS_POWER_METRIC                                          :{COMMA}ps
+
+STR_UNITS_POWER_SI                                              :{COMMA}kW
+
+
+STR_UNITS_WEIGHT_SHORT_METRIC                                   :{COMMA}t
+
+STR_UNITS_WEIGHT_SHORT_SI                                       :{COMMA}kg
+
+
+STR_UNITS_WEIGHT_LONG_METRIC                                    :{COMMA} Tonn{P "" en}
+
+STR_UNITS_WEIGHT_LONG_SI                                        :{COMMA} kg
+
+
+STR_UNITS_VOLUME_SHORT_METRIC                                   :{COMMA}l
+
+STR_UNITS_VOLUME_SHORT_SI                                       :{COMMA}m�
+
+
+STR_UNITS_VOLUME_LONG_METRIC                                    :{COMMA} Liter{P "" ""}
+
+STR_UNITS_VOLUME_LONG_SI                                        :{COMMA} m�
+
+
+STR_UNITS_FORCE_SI                                              :{COMMA} kN
+
+
+# Common window strings
+
+STR_LIST_FILTER_OSKTITLE                                        :{BLACK}Filter string
+
+STR_LIST_FILTER_TOOLTIP                                         :{BLACK}Wuert fir d'L�scht ze filtern
+
+
+STR_TOOLTIP_SORT_ORDER                                          :{BLACK}Richtung fir ze sort�ieren (oofsteigend/opsteigend)
+
+STR_TOOLTIP_SORT_CRITERIAP                                      :{BLACK}Argument fir ze sort�ieren
+
+STR_TOOLTIP_FILTER_CRITERIA                                     :{BLACK}Filterkrit�re wielen
+
+STR_BUTTON_SORT_BY                                              :{BLACK}Sort�ier no
+
+STR_BUTTON_LOCATION                                             :{BLACK}Plaz
+
+STR_BUTTON_RENAME                                               :{BLACK}�mbenennen
+
+
+STR_TOOLTIP_CLOSE_WINDOW                                        :{BLACK}F�nster zoumaachen
+
+STR_TOOLTIP_WINDOW_TITLE_DRAG_THIS                              :{BLACK}F�nstertitel - hei z�ien fir d'F�nster ze bewegen
+
+STR_TOOLTIP_STICKY                                              :{BLACK}Mark�ier d�s F�nster als net zouzemaachen vun dem "All F�nsteren zoumaachen" Kn�ppchen
+
+STR_TOOLTIP_RESIZE                                              :{BLACK}Klicken an z�ihen fir d'F�nstergr�isst ze �nneren
+
+STR_TOOLTIP_TOGGLE_LARGE_SMALL_WINDOW                           :{BLACK}Wiesselt grouss/kleng F�nstergr�isst
+
+STR_TOOLTIP_VSCROLL_BAR_SCROLLS_LIST                            :{BLACK}Scrollbar - scrollt d'L�scht erop/erof
+
+STR_TOOLTIP_HSCROLL_BAR_SCROLLS_LIST                            :{BLACK}Scrollbar - scrollt d'L�scht no l�nks/riets
+
+STR_TOOLTIP_DEMOLISH_BUILDINGS_ETC                              :{BLACK}Objekter op engem St�ck Land zerst�ieren
+
+
+# Query window
+
+STR_BUTTON_DEFAULT                                              :{BLACK}Standard
+
+STR_BUTTON_CANCEL                                               :{BLACK}Ofbriechen
+
+STR_BUTTON_OK                                                   :{BLACK}OK
+
+
+# On screen keyboard window
+
+STR_OSK_KEYBOARD_LAYOUT                                         :`1234567890-=\qwertyuiop[]asdfghjkl;'  zxcvbnm,./ .
+
+STR_OSK_KEYBOARD_LAYOUT_CAPS                                    :~!@#$%^&*()_+|QWERTYUIOP{{}}ASDFGHJKL:"  ZXCVBNM<>? .
+
+
+# Measurement tooltip
+
+STR_MEASURE_LENGTH                                              :{BLACK}L�ngt: {NUM}
+
+STR_MEASURE_AREA                                                :{BLACK}Areal: {NUM} x {NUM}
+
+STR_MEASURE_LENGTH_HEIGHTDIFF                                   :{BLACK}L�ngt: {NUM}{}H�ichten�nnerscheed: {NUM} m
+
+STR_MEASURE_AREA_HEIGHTDIFF                                     :{BLACK}Areal: {NUM} x {NUM}{}H�ichten�nnerscheed: {NUM} m
+
+
+
+# The first three are also used as 'Sort by' buttons, the rest only in dropdowns
+
+STR_SORT_BY_CAPTION_POPULATION                                  :{BLACK}Bev�lkerung
+
+STR_SORT_BY_CAPTION_NAME                                        :{BLACK}Numm
+
+STR_SORT_BY_CAPTION_DATE                                        :{BLACK}Datum
+
+STR_SORT_BY_PRODUCTION                                          :Produktioun
+
+STR_SORT_BY_TYPE                                                :Typ
+
+STR_SORT_BY_TRANSPORTED                                         :Transport�iert
+
+STR_SORT_BY_NUMBER                                              :Nummer
+
+STR_SORT_BY_PROFIT_LAST_YEAR                                    :Profit am leschten Joer
+
+STR_SORT_BY_PROFIT_THIS_YEAR                                    :Profit d�st Joer
+
+STR_SORT_BY_AGE                                                 :Alter
+
+STR_SORT_BY_RELIABILITY                                         :Zouverl�ssegkeet
+
+STR_SORT_BY_TOTAL_CAPACITY_PER_CARGOTYPE                        :Total Luedplaatz no Luedungstyp
+
+STR_SORT_BY_MAX_SPEED                                           :Maximal Geschwindegkeet
+
+STR_SORT_BY_MODEL                                               :Model
+
+STR_SORT_BY_VALUE                                               :Wert
+
+STR_SORT_BY_LENGTH                                              :Lengt
+
+STR_SORT_BY_LIFE_TIME                                           :Reschtlaafz�it
+
+STR_SORT_BY_FACILITY                                            :Statiounstyp
+
+STR_SORT_BY_WAITING                                             :Luedungswert
+
+STR_SORT_BY_RATING_MAX                                          :H�chsten Luedungsbewertung
+
+STR_SORT_BY_RATING_MIN                                          :Nidregsten Luedungsbewertung
+
+STR_SORT_BY_ENGINE_ID                                           :ID (klass�sch Sort�ierung)
+
+STR_SORT_BY_COST                                                :K�schten
+
+STR_SORT_BY_POWER                                               :Kraaft
+
+STR_SORT_BY_INTRO_DATE                                          :Af�irungsdatum
+
+STR_SORT_BY_RUNNING_COST                                        :Betriebsk�schten
+
+STR_SORT_BY_POWER_VS_RUNNING_COST                               :Kraaft/Betriebsk�schten
+
+STR_SORT_BY_CARGO_CAPACITY                                      :Luedungskapazit�it
+
+
+# Tooltips for the main toolbar
+
+STR_TOOLBAR_TOOLTIP_PAUSE_GAME                                  :{BLACK}Spill pausen
+
+STR_TOOLBAR_TOOLTIP_FORWARD                                     :{BLACK}Spill schnell laafen loosen
+
+STR_TOOLBAR_TOOLTIP_OPTIONS                                     :{BLACK}Optiounen
+
+STR_TOOLBAR_TOOLTIP_SAVE_GAME_ABANDON_GAME                      :{BLACK}Spill sp�icheren, Spill opginn, Eraus
+
+STR_TOOLBAR_TOOLTIP_DISPLAY_MAP                                 :{BLACK}Weis d'Kaart, extra Siichtpunkt oder d'L�scht vun den Zeeschen
+
+STR_TOOLBAR_TOOLTIP_DISPLAY_TOWN_DIRECTORY                      :{BLACK}Weis d'Stiedverzeeschn�ss
+
+STR_TOOLBAR_TOOLTIP_DISPLAY_SUBSIDIES                           :{BLACK}Subventiounen weisen
+
+STR_TOOLBAR_TOOLTIP_DISPLAY_LIST_OF_COMPANY_STATIONS            :{BLACK}Weis d'L�scht vun den Firmen hieren Statiounen
+
+STR_TOOLBAR_TOOLTIP_DISPLAY_COMPANY_FINANCES                    :{BLACK}Informatiounen zu den Firmenfinanzen
+
+STR_TOOLBAR_TOOLTIP_DISPLAY_COMPANY_GENERAL                     :{BLACK}Generel Firmeninformatioun
+
+STR_TOOLBAR_TOOLTIP_DISPLAY_GRAPHS                              :{BLACK}Weis Grafiken
+
+STR_TOOLBAR_TOOLTIP_DISPLAY_COMPANY_LEAGUE                      :{BLACK}Weis d'Firmen-Rangl�scht
+
+STR_TOOLBAR_TOOLTIP_FUND_CONSTRUCTION_OF_NEW                    :{BLACK}Finanz�iert den Bau vun enger neier Industrie oder l�scht all d'Industrien op
+
+STR_TOOLBAR_TOOLTIP_DISPLAY_LIST_OF_COMPANY_TRAINS              :{BLACK}L�scht vun den Firmenzich
+
+STR_TOOLBAR_TOOLTIP_DISPLAY_LIST_OF_COMPANY_ROAD_VEHICLES       :{BLACK}L�scht vun den Storssengefierer vun der Firma
+
+STR_TOOLBAR_TOOLTIP_DISPLAY_LIST_OF_COMPANY_SHIPS               :{BLACK}L�scht vun den Firmensch�ffer
+
+STR_TOOLBAR_TOOLTIP_DISPLAY_LIST_OF_COMPANY_AIRCRAFT            :{BLACK}L�scht vun den Firmenfligeren
+
+STR_TOOLBAR_TOOLTIP_ZOOM_THE_VIEW_IN                            :{BLACK}Vergr�isser d'Sicht
+
+STR_TOOLBAR_TOOLTIP_ZOOM_THE_VIEW_OUT                           :{BLACK}Verklenger d'Sicht
+
+STR_TOOLBAR_TOOLTIP_BUILD_RAILROAD_TRACK                        :{BLACK}Schinnen bauen
+
+STR_TOOLBAR_TOOLTIP_BUILD_ROADS                                 :{BLACK}Stroossen bauen
+
+STR_TOOLBAR_TOOLTIP_BUILD_SHIP_DOCKS                            :{BLACK}Sch�ffhafen bauen
+
+STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Flughafen bauen
+
+STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Landschafts-Toolbar opman fir Land ze erh�igen/senken, Beem planzen, etc.
+
+STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Sound/Mus�k F�nster
+
+STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Weis d�i lescht Meldung/Neiegkeet, oder d'Astellungen
+
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Informatiounen zum Land
+
+
+# Extra tooltips for the scenario editor toolbar
+
+STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Szenario sp�icheren, Szenario lueden, Eraus aus dem Szenarioeditor, Eraus
+
+STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+
+STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Szenarien Editor
+
+STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}�nner den Startdatum 1 Joer nohannen
+
+STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}�nner den Startdatum 1 Joer no viir
+
+STR_SCENEDIT_TOOLBAR_TOOLTIP_DISPLAY_MAP_TOWN_DIRECTORY         :{BLACK}Weis d'Kaart, Stiedverzeeschn�ss
+
+STR_SCENEDIT_TOOLBAR_LANDSCAPE_GENERATION                       :{BLACK}Landschaftserstellung
+
+STR_SCENEDIT_TOOLBAR_TOWN_GENERATION                            :{BLACK}Staderstellung
+
+STR_SCENEDIT_TOOLBAR_INDUSTRY_GENERATION                        :{BLACK}Industrieerstellung
+
+STR_SCENEDIT_TOOLBAR_ROAD_CONSTRUCTION                          :{BLACK}Stroossenbau
+
+STR_SCENEDIT_TOOLBAR_PLANT_TREES                                :{BLACK}Beem setzen
+
+STR_SCENEDIT_TOOLBAR_PLACE_SIGN                                 :{BLACK}Sch�ld opstellen
+
+
+############ range for SE file menu starts
+
+STR_SCENEDIT_FILE_MENU_SAVE_SCENARIO                            :Szenario sp�icheren
+
+STR_SCENEDIT_FILE_MENU_LOAD_SCENARIO                            :Szenario lueden
+
+STR_SCENEDIT_FILE_MENU_LOAD_HEIGHTMAP                           :Lued H�ichtenkaart
+
+STR_SCENEDIT_FILE_MENU_QUIT_EDITOR                              :Eraus aus dem Editor
+
+STR_SCENEDIT_FILE_MENU_SEPARATOR                                :
+
+STR_SCENEDIT_FILE_MENU_QUIT                                     :Eraus
+
+############ range for SE file menu starts
+
+
+############ range for settings menu starts
+
+STR_SETTINGS_MENU_GAME_OPTIONS                                  :Spilloptiounen
+
+STR_SETTINGS_MENU_DIFFICULTY_SETTINGS                           :Schwieregkeetsastellungen
+
+STR_SETTINGS_MENU_CONFIG_SETTINGS                               :Erweidert Astellungen
+
+STR_SETTINGS_MENU_NEWGRF_SETTINGS                               :NewGRF Astellungen
+
+STR_SETTINGS_MENU_TRANSPARENCY_OPTIONS                          :Transparenz Optiounen
+
+STR_SETTINGS_MENU_TOWN_NAMES_DISPLAYED                          :Stiednimm ugewisen
+
+STR_SETTINGS_MENU_STATION_NAMES_DISPLAYED                       :Statiounennimm ugewisen
+
+STR_SETTINGS_MENU_WAYPOINTS_DISPLAYED                           :Weepunkteb unweisen
+
+STR_SETTINGS_MENU_SIGNS_DISPLAYED                               :Sch�lder ugewisen
+
+STR_SETTINGS_MENU_FULL_ANIMATION                                :Ganz Animatiounen
+
+STR_SETTINGS_MENU_FULL_DETAIL                                   :Ganz Detailer
+
+STR_SETTINGS_MENU_TRANSPARENT_BUILDINGS                         :Transparent Gebaier
+
+STR_SETTINGS_MENU_TRANSPARENT_SIGNS                             :Transparent Statiounssch�lder
+
+############ range ends here
+
+
+############ range for file menu starts
+
+STR_FILE_MENU_SAVE_GAME                                         :Spill sp�icheren
+
+STR_FILE_MENU_LOAD_GAME                                         :Spill lueden
+
+STR_FILE_MENU_QUIT_GAME                                         :Spill opginn
+
+STR_FILE_MENU_EXIT                                              :Eraus
+
+############ range ends here
+
+
+############ range for map menu starts
+
+STR_MAP_MENU_MAP_OF_WORLD                                       :Weltkaart
+
+STR_MAP_MENU_EXTRA_VIEW_PORT                                    :Extra Usiicht
+
+STR_MAP_MENU_SIGN_LIST                                          :Sch�lderl�scht
+
+############ range for town menu starts, yet the town directory is shown in the map menu in the scenario editor
+
+STR_TOWN_MENU_TOWN_DIRECTORY                                    :Stiedverzeeschniss
+
+############ both ranges ends here
+
+
+############ range for subsidies menu starts
+
+STR_SUBSIDIES_MENU_SUBSIDIES                                    :Subventiounen
+
+############ range ends here
+
+
+############ range for graph menu starts
+
+STR_GRAPH_MENU_OPERATING_PROFIT_GRAPH                           :Grafik: Operativen Gew�nn
+
+STR_GRAPH_MENU_INCOME_GRAPH                                     :Grafik: Ankommes
+
+STR_GRAPH_MENU_DELIVERED_CARGO_GRAPH                            :Grafik: Geliwwert Luedungen
+
+STR_GRAPH_MENU_PERFORMANCE_HISTORY_GRAPH                        :Grafik: Performance
+
+STR_GRAPH_MENU_COMPANY_VALUE_GRAPH                              :Grafik: Betriebswert
+
+STR_GRAPH_MENU_CARGO_PAYMENT_RATES                              :Luedungs Bezuelraten
+
+############ range ends here
+
+
+############ range for company league menu starts
+
+STR_GRAPH_MENU_COMPANY_LEAGUE_TABLE                             :Betriebsrangl�scht
+
+STR_GRAPH_MENU_DETAILED_PERFORMANCE_RATING                      :Detail�iert Performancebewertung
+
+############ range ends here
+
+
+############ range for industry menu starts
+
+STR_INDUSTRY_MENU_INDUSTRY_DIRECTORY                            :Industriel�scht
+
+STR_INDUSTRY_MENU_FUND_NEW_INDUSTRY                             :Finanz�iert eng nei Industrie
+
+############ range ends here
+
+
+############ range for railway construction menu starts
+
+STR_RAIL_MENU_RAILROAD_CONSTRUCTION                             :Schinnenbau
+
+STR_RAIL_MENU_ELRAIL_CONSTRUCTION                               :�lektr�schen Zuchbau
+
+STR_RAIL_MENU_MONORAIL_CONSTRUCTION                             :Monorailbau
+
+STR_RAIL_MENU_MAGLEV_CONSTRUCTION                               :Magn�itbunnbau
+
+############ range ends here
+
+
+############ range for road construction menu starts
+
+STR_ROAD_MENU_ROAD_CONSTRUCTION                                 :Stroossenbau
+
+STR_ROAD_MENU_TRAM_CONSTRUCTION                                 :Trambau
+
+############ range ends here
+
+
+############ range for waterways construction menu starts
+
+STR_WATERWAYS_MENU_WATERWAYS_CONSTRUCTION                       :Waasserstroossen bauen
+
+############ range ends here
+
+
+############ range for airport construction menu starts
+
+STR_AIRCRAFT_MENU_AIRPORT_CONSTRUCTION                          :Fluchhafenbau
+
+############ range ends here
+
+
+############ range for landscaping menu starts
+
+STR_LANDSCAPING_MENU_LANDSCAPING                                :Landschaftsbau
+
+STR_LANDSCAPING_MENU_PLANT_TREES                                :Beem planzen
+
+STR_LANDSCAPING_MENU_PLACE_SIGN                                 :Sch�ld opstellen
+
+############ range ends here
+
+
+############ range for music menu starts
+
+STR_TOOLBAR_SOUND_MUSIC                                         :Sound/Mus�k
+
+############ range ends here
+
+
+############ range for message menu starts
+
+STR_NEWS_MENU_LAST_MESSAGE_NEWS_REPORT                          :L�scht Meldung/Neiegkeet
+
+STR_NEWS_MENU_MESSAGE_SETTINGS                                  :Meldungsanstellungen
+
+STR_NEWS_MENU_MESSAGE_HISTORY_MENU                              :Meldungshistorie
+
+############ range ends here
+
+
+############ range for about menu starts
+
+STR_ABOUT_MENU_LAND_BLOCK_INFO                                  :Landinformatiounen
+
+STR_ABOUT_MENU_SEPARATOR                                        :
+
+STR_ABOUT_MENU_TOGGLE_CONSOLE                                   :Konsole un/aus
+
+STR_ABOUT_MENU_AI_DEBUG                                         :KI Debug
+
+STR_ABOUT_MENU_SCREENSHOT                                       :Screenshot (Ctrl+S)
+
+STR_ABOUT_MENU_GIANT_SCREENSHOT                                 :Riesen Screenshot (Ctrl+G)
+
+STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Iwwert 'OpenTTD'
+
+############ range ends here
+
+
+############ range for days starts (also used for the place in the highscore window)
+
+STR_ORDINAL_NUMBER_1ST                                          :1ten
+
+STR_ORDINAL_NUMBER_2ND                                          :2ten
+
+STR_ORDINAL_NUMBER_3RD                                          :3ten
+
+STR_ORDINAL_NUMBER_4TH                                          :4ten
+
+STR_ORDINAL_NUMBER_5TH                                          :5ten
+
+STR_ORDINAL_NUMBER_6TH                                          :6ten
+
+STR_ORDINAL_NUMBER_7TH                                          :7ten
+
+STR_ORDINAL_NUMBER_8TH                                          :8ten
+
+STR_ORDINAL_NUMBER_9TH                                          :9ten
+
+STR_ORDINAL_NUMBER_10TH                                         :10ten
+
+STR_ORDINAL_NUMBER_11TH                                         :11ten
+
+STR_ORDINAL_NUMBER_12TH                                         :12ten
+
+STR_ORDINAL_NUMBER_13TH                                         :13ten
+
+STR_ORDINAL_NUMBER_14TH                                         :14ten
+
+STR_ORDINAL_NUMBER_15TH                                         :15ten
+
+STR_ORDINAL_NUMBER_16TH                                         :16ten
+
+STR_ORDINAL_NUMBER_17TH                                         :17ten
+
+STR_ORDINAL_NUMBER_18TH                                         :18ten
+
+STR_ORDINAL_NUMBER_19TH                                         :19ten
+
+STR_ORDINAL_NUMBER_20TH                                         :20ten
+
+STR_ORDINAL_NUMBER_21ST                                         :21ten
+
+STR_ORDINAL_NUMBER_22ND                                         :22ten
+
+STR_ORDINAL_NUMBER_23RD                                         :23ten
+
+STR_ORDINAL_NUMBER_24TH                                         :24ten
+
+STR_ORDINAL_NUMBER_25TH                                         :25ten
+
+STR_ORDINAL_NUMBER_26TH                                         :26ten
+
+STR_ORDINAL_NUMBER_27TH                                         :27ten
+
+STR_ORDINAL_NUMBER_28TH                                         :28ten
+
+STR_ORDINAL_NUMBER_29TH                                         :29ten
+
+STR_ORDINAL_NUMBER_30TH                                         :30ten
+
+STR_ORDINAL_NUMBER_31ST                                         :31ten
+
+############ range for days ends
+
+
+############ range for months starts
+
+STR_MONTH_ABBREV_JAN                                            :Jan
+
+STR_MONTH_ABBREV_FEB                                            :Feb
+
+STR_MONTH_ABBREV_MAR                                            :M�r
+
+STR_MONTH_ABBREV_APR                                            :Abr
+
+STR_MONTH_ABBREV_MAY                                            :Mee
+
+STR_MONTH_ABBREV_JUN                                            :Jun
+
+STR_MONTH_ABBREV_JUL                                            :Jul
+
+STR_MONTH_ABBREV_AUG                                            :Aug
+
+STR_MONTH_ABBREV_SEP                                            :Sep
+
+STR_MONTH_ABBREV_OCT                                            :Oct
+
+STR_MONTH_ABBREV_NOV                                            :Nov
+
+STR_MONTH_ABBREV_DEC                                            :Dez
+
+
+STR_MONTH_JAN                                                   :Januar
+
+STR_MONTH_FEB                                                   :Febuar
+
+STR_MONTH_MAR                                                   :M�rz
+
+STR_MONTH_APR                                                   :Abr�ll
+
+STR_MONTH_MAY                                                   :Mee
+
+STR_MONTH_JUN                                                   :Juni
+
+STR_MONTH_JUL                                                   :Juli
+
+STR_MONTH_AUG                                                   :August
+
+STR_MONTH_SEP                                                   :September
+
+STR_MONTH_OCT                                                   :Oktober
+
+STR_MONTH_NOV                                                   :November
+
+STR_MONTH_DEC                                                   :Dezember
+
+############ range for months ends
+
+
+# Graph window
+
+STR_GRAPH_KEY_BUTTON                                            :{BLACK}Legend
+
+STR_GRAPH_KEY_TOOLTIP                                           :{BLACK}Weist Legend vun der Grafik
+
+STR_GRAPH_X_LABEL_MONTH                                         :{TINYFONT}{STRING}{} {STRING}
+
+STR_GRAPH_X_LABEL_MONTH_YEAR                                    :{TINYFONT}{STRING}{} {STRING}{}{NUM}
+
+STR_GRAPH_Y_LABEL                                               :{TINYFONT}{STRING}
+
+STR_GRAPH_Y_LABEL_NUMBER                                        :{TINYFONT}{COMMA}
+
+
+STR_GRAPH_OPERATING_PROFIT_CAPTION                              :{WHITE}Grafik: Betriibsgew�nn
+
+STR_GRAPH_INCOME_CAPTION                                        :{WHITE}Grafik: Ankommen
+
+STR_GRAPH_CARGO_DELIVERED_CAPTION                               :{WHITE}Unit�iten vun Luedung geliwert
+
+STR_GRAPH_COMPANY_PERFORMANCE_RATINGS_CAPTION                   :{WHITE}Firmen Preformancebewertung (max bewertung=1000)
+
+STR_GRAPH_COMPANY_VALUES_CAPTION                                :{WHITE}Firmenwert
+
+
+STR_GRAPH_CARGO_PAYMENT_RATES_CAPTION                           :{WHITE}Luedungs Bezuelraten
+
+STR_GRAPH_CARGO_PAYMENT_RATES_X_LABEL                           :{TINYFONT}{BLACK}Deeg am �mmlaaf
+
+STR_GRAPH_CARGO_PAYMENT_RATES_TITLE                             :{TINYFONT}{BLACK}Bezuelung fir Liwerung vun 10 Unit�iten (oder 10.000 liter) Luedungen op Distanz vun  20 Quadrater
+
+STR_GRAPH_CARGO_PAYMENT_TOGGLE_CARGO                            :{BLACK}Wieselt den Grafik fir den Luedungstyp un/aus
+
+STR_GRAPH_CARGO_PAYMENT_CARGO                                   :{TINYFONT}{BLACK}{STRING}
+
+
+STR_GRAPH_PERFORMANCE_DETAIL_TOOLTIP                            :{BLACK}Weis detaill�iert performance Astellungen
+
+
+# Graph key window
+
+STR_GRAPH_KEY_CAPTION                                           :{WHITE}Legend vun den Firmengrafiken
+
+STR_GRAPH_KEY_COMPANY_SELECTION_TOOLTIP                         :{BLACK}Klickt hei fir d'Firma an der Grafik an/aus zeschalten
+
+
+# Company league window
+
+STR_COMPANY_LEAGUE_TABLE_CAPTION                                :{WHITE}Firmenliga Tabell
+
+STR_COMPANY_LEAGUE_COMPANY_NAME                                 :{ORANGE}{COMPANY} {BLACK}{COMPANYNUM} '{STRING}'
+
+STR_COMPANY_LEAGUE_PERFORMANCE_TITLE_ENGINEER                   :Techniker
+
+STR_COMPANY_LEAGUE_PERFORMANCE_TITLE_TRAFFIC_MANAGER            :Verk�iersmanager
+
+STR_COMPANY_LEAGUE_PERFORMANCE_TITLE_TRANSPORT_COORDINATOR      :Transportkoordinator
+
+STR_COMPANY_LEAGUE_PERFORMANCE_TITLE_ROUTE_SUPERVISOR           :Stroossenopsiicht
+
+STR_COMPANY_LEAGUE_PERFORMANCE_TITLE_DIRECTOR                   :Direkter
+
+STR_COMPANY_LEAGUE_PERFORMANCE_TITLE_CHIEF_EXECUTIVE            :Firmenchef
+
+STR_COMPANY_LEAGUE_PERFORMANCE_TITLE_CHAIRMAN                   :Virs�tzenden
+
+STR_COMPANY_LEAGUE_PERFORMANCE_TITLE_PRESIDENT                  :President
+
+STR_COMPANY_LEAGUE_PERFORMANCE_TITLE_TYCOON                     :Tycoon
+
+
+# Performance detail window
+
+STR_PERFORMANCE_DETAIL                                          :{WHITE}Detail�iert Leeschtungsbewertung
+
+STR_PERFORMANCE_DETAIL_KEY                                      :{BLACK}Detail
+
+STR_PERFORMANCE_DETAIL_AMOUNT_CURRENCY                          :{BLACK}({CURRCOMPACT}/{CURRCOMPACT})
+
+STR_PERFORMANCE_DETAIL_AMOUNT_INT                               :{BLACK}({COMMA}/{COMMA})
+
+STR_PERFORMANCE_DETAIL_PERCENT                                  :{WHITE}{NUM}%
+
+############ Those following lines need to be in this order!!
+
+STR_PERFORMANCE_DETAIL_VEHICLES                                 :{BLACK}Gefierter:
+
+STR_PERFORMANCE_DETAIL_STATIONS                                 :{BLACK}Statiounen:
+
+STR_PERFORMANCE_DETAIL_MIN_PROFIT                               :{BLACK}Min. Profit:
+
+STR_PERFORMANCE_DETAIL_MIN_INCOME                               :{BLACK}Min. Ankommes:
+
+STR_PERFORMANCE_DETAIL_MAX_INCOME                               :{BLACK}Max. Ankommes:
+
+STR_PERFORMANCE_DETAIL_DELIVERED                                :{BLACK}Geliwwert:
+
+STR_PERFORMANCE_DETAIL_CARGO                                    :{BLACK}Luedung:
+
+STR_PERFORMANCE_DETAIL_MONEY                                    :{BLACK}Suen:
+
+STR_PERFORMANCE_DETAIL_LOAN                                     :{BLACK}Kredit:
+
+STR_PERFORMANCE_DETAIL_TOTAL                                    :{BLACK}Total:
+
+############ End of order list
+
+STR_PERFORMANCE_DETAIL_VEHICLES_TOOLTIP                         :{BLACK}Unzuel Gefierter; all Zorten zielen: Stroosengefierter, Zich, Sch�ffer an Fligeren
+
+STR_PERFORMANCE_DETAIL_STATIONS_TOOLTIP                         :{BLACK}Unzuel un Statiounsdeeler.All Deel vun enger Statioun (e.g. Gare,Busarret,Fluchhafen)g�tt gezielt,och wann d�i als eng Statioun connect�iert sinn.
+
+STR_PERFORMANCE_DETAIL_MIN_PROFIT_TOOLTIP                       :{BLACK}Profit vum Gefiert mam mansten Akommes (vun allen Gefierter d�i m�i w�i 2 Joer aal sin)
+
+STR_PERFORMANCE_DETAIL_MIN_INCOME_TOOLTIP                       :{BLACK}Betrag un Geld den am Mount mam mansten Profit gemet gouf an den leschten 12 Quartaler
+
+STR_PERFORMANCE_DETAIL_MAX_INCOME_TOOLTIP                       :{BLACK}Betrag un Geld den am Mount mam h�chsten Profit gemet gouf an den leschten 12 Quartaler
+
+STR_PERFORMANCE_DETAIL_DELIVERED_TOOLTIP                        :{BLACK}Unzuel un Typen Wueren d�i d�i 4 lescht Quartaler geliwwert goufen
+
+STR_PERFORMANCE_DETAIL_CARGO_TOOLTIP                            :{BLACK}Unzuel un Typen Wueren d�i lescht Quartal geliwwert goufen
+
+STR_PERFORMANCE_DETAIL_MONEY_TOOLTIP                            :{BLACK}Betrag un Suen den des Firma op der Bank huet
+
+STR_PERFORMANCE_DETAIL_LOAN_TOOLTIP                             :{BLACK}Betrag un Geld den d�s Firma gel�int huet
+
+STR_PERFORMANCE_DETAIL_TOTAL_TOOLTIP                            :{BLACK}Total Punkte vun m�iglechen Punkten
+
+
+# Music window
+
+STR_MUSIC_JAZZ_JUKEBOX_CAPTION                                  :{WHITE}Jazz Jukebox
+
+STR_MUSIC_PLAYLIST_ALL                                          :{TINYFONT}{BLACK}All
+
+STR_MUSIC_PLAYLIST_OLD_STYLE                                    :{TINYFONT}{BLACK}Aalen Style
+
+STR_MUSIC_PLAYLIST_NEW_STYLE                                    :{TINYFONT}{BLACK}Neien Style
+
+STR_MUSIC_PLAYLIST_EZY_STREET                                   :{TINYFONT}{BLACK}Ezy Street
+
+STR_MUSIC_PLAYLIST_CUSTOM_1                                     :{TINYFONT}{BLACK}Benotzerd�f. 1
+
+STR_MUSIC_PLAYLIST_CUSTOM_2                                     :{TINYFONT}{BLACK}Benotzerd�f. 2
+
+STR_MUSIC_MUSIC_VOLUME                                          :{TINYFONT}{BLACK}Mus�k Lautst�rkt
+
+STR_MUSIC_EFFECTS_VOLUME                                        :{TINYFONT}{BLACK}Lautst�rkt vun den Effekter
+
+STR_MUSIC_TRACK_NONE                                            :{TINYFONT}{DKGREEN}--
+
+STR_MUSIC_TRACK_DIGIT                                           :{TINYFONT}{DKGREEN}{ZEROFILL_NUM}
+
+STR_MUSIC_TITLE_NONE                                            :{TINYFONT}{DKGREEN}------
+
+STR_MUSIC_TITLE_NAME                                            :{TINYFONT}{DKGREEN}"{STRING}"
+
+STR_MUSIC_TRACK                                                 :{TINYFONT}{BLACK}Nummer
+
+STR_MUSIC_XTITLE                                                :{TINYFONT}{BLACK}Titel
+
+STR_MUSIC_SHUFFLE                                               :{TINYFONT}{BLACK}Shuffle
+
+STR_MUSIC_PROGRAM                                               :{TINYFONT}{BLACK}Programm
+
+STR_MUSIC_TOOLTIP_SKIP_TO_PREVIOUS_TRACK                        :{BLACK}Sprang op d'St�ck firdrun vun der Selektioun
+
+STR_MUSIC_TOOLTIP_SKIP_TO_NEXT_TRACK_IN_SELECTION               :{BLACK}Sprang op dat n�chst St�ck vun der Selektioun
+
+STR_MUSIC_TOOLTIP_STOP_PLAYING_MUSIC                            :{BLACK}Stop d'Mus�k
+
+STR_MUSIC_TOOLTIP_START_PLAYING_MUSIC                           :{BLACK}Start d'Mus�k
+
+STR_MUSIC_TOOLTIP_DRAG_SLIDERS_TO_SET_MUSIC                     :{BLACK}Z�i den Regler fir d'Lautst�rkt vun der Mus�k an den Effekter anzestellen
+
+STR_MUSIC_TOOLTIP_SELECT_ALL_TRACKS_PROGRAM                     :{BLACK}Selection�ier 'all Lidder' Programm
+
+STR_MUSIC_TOOLTIP_SELECT_OLD_STYLE_MUSIC                        :{BLACK}Selection�ier 'aalen Style' Programm
+
+STR_MUSIC_TOOLTIP_SELECT_NEW_STYLE_MUSIC                        :{BLACK}Selection�ier 'neien Style' Programm
+
+STR_MUSIC_TOOLTIP_SELECT_EZY_STREET_STYLE                       :{BLACK}Wielt 'Ezy Street Mus�k' Programm
+
+STR_MUSIC_TOOLTIP_SELECT_CUSTOM_1_USER_DEFINED                  :{BLACK}Selection�ier 'Benotzerd�f. 1' Programm
+
+STR_MUSIC_TOOLTIP_SELECT_CUSTOM_2_USER_DEFINED                  :{BLACK}Selection�ier 'Benotzerd�f. 2' Programm
+
+STR_MUSIC_TOOLTIP_TOGGLE_PROGRAM_SHUFFLE                        :{BLACK}Schalt den "shuffle" un/aus
+
+STR_MUSIC_TOOLTIP_SHOW_MUSIC_TRACK_SELECTION                    :{BLACK}Weis Mus�kselektioneier-F�nster
+
+
+# Playlist window
+
+STR_PLAYLIST_MUSIC_PROGRAM_SELECTION                            :{WHITE}Mus�kprogramm Selectioun
+
+STR_PLAYLIST_TRACK_NAME                                         :{TINYFONT}{LTBLUE}{ZEROFILL_NUM} "{STRING}"
+
+STR_PLAYLIST_TRACK_INDEX                                        :{TINYFONT}{BLACK}Lidder Index
+
+STR_PLAYLIST_PROGRAM                                            :{TINYFONT}{BLACK}Programm - '{STRING}'
+
+STR_PLAYLIST_CLEAR                                              :{TINYFONT}{BLACK}Leschen
+
+STR_PLAYLIST_SAVE                                               :{TINYFONT}{BLACK}Sp�icheren
+
+STR_PLAYLIST_TOOLTIP_CLEAR_CURRENT_PROGRAM_CUSTOM1              :{BLACK}Den gewielten Program reseten (n�mmen Benotzerd�f.1 oder Benotzerd�f.2)
+
+STR_PLAYLIST_TOOLTIP_SAVE_MUSIC_SETTINGS                        :{BLACK}Mus�k Astellungen sp�icheren
+
+STR_PLAYLIST_TOOLTIP_CLICK_TO_ADD_TRACK                         :{BLACK}Klick op d'Lidd fir et zum aktuellen Program dob�i zesetzen (n�mmen Benotzerd�f.1 oder Benotzerd�f.2)
+
+STR_PLAYLIST_TOOLTIP_CLICK_TO_REMOVE_TRACK                      :{BLACK}Klickt op d'Lidd fir et vum aktuellen Programm ze l�schen (Benotzerdefin�iert 1 an 2 n�mmen)
+
+
+# Highscore window
+
+STR_HIGHSCORE_TOP_COMPANIES_WHO_REACHED                         :{BIGFONT}{BLACK}Top Firmen dei {NUM} erreescht hun{}({STRING} Level)
+
+STR_HIGHSCORE_TOP_COMPANIES_NETWORK_GAME                        :{BIGFONT}{BLACK}Firmenligatabell an {NUM}
+
+STR_HIGHSCORE_POSITION                                          :{BIGFONT}{BLACK}{COMMA}.
+
+STR_HIGHSCORE_PERFORMANCE_TITLE_BUSINESSMAN                     :Kafmann
+
+STR_HIGHSCORE_PERFORMANCE_TITLE_ENTREPRENEUR                    :Entrepreneur
+
+STR_HIGHSCORE_PERFORMANCE_TITLE_INDUSTRIALIST                   :Industriellen
+
+STR_HIGHSCORE_PERFORMANCE_TITLE_CAPITALIST                      :Kapitalist
+
+STR_HIGHSCORE_PERFORMANCE_TITLE_MAGNATE                         :Magnat
+
+STR_HIGHSCORE_PERFORMANCE_TITLE_MOGUL                           :Mogul
+
+STR_HIGHSCORE_PERFORMANCE_TITLE_TYCOON_OF_THE_CENTURY           :Tycoon vum Jorhonnert
+
+STR_HIGHSCORE_NAME                                              :{BIGFONT}{PRESIDENTNAME}, {COMPANY}
+
+STR_HIGHSCORE_STATS                                             :{BIGFONT}'{STRING}'   ({COMMA})
+
+STR_HIGHSCORE_COMPANY_ACHIEVES_STATUS                           :{BIGFONT}{BLACK}{COMPANY} ereescht den Status '{STRING}'!
+
+STR_HIGHSCORE_PRESIDENT_OF_COMPANY_ACHIEVES_STATUS              :{BIGFONT}{WHITE}{PRESIDENTNAME} vun {COMPANY} ereescht den Status '{STRING}'!
+
+
+# Smallmap window
+
+STR_SMALLMAP_CAPTION                                            :{WHITE}Kaart - {STRING}
+
+
+STR_SMALLMAP_TYPE_CONTOURS                                      :Konturen
+
+STR_SMALLMAP_TYPE_VEHICLES                                      :Gefierer
+
+STR_SMALLMAP_TYPE_INDUSTRIES                                    :Industrien
+
+STR_SMALLMAP_TYPE_ROUTES                                        :Routen
+
+STR_SMALLMAP_TYPE_VEGETATION                                    :Vegetatioun
+
+STR_SMALLMAP_TYPE_OWNERS                                        :Bes�tzer
+
+STR_SMALLMAP_TOOLTIP_SHOW_LAND_CONTOURS_ON_MAP                  :{BLACK}Weis d'Landkonturen op der Kaart
+
+STR_SMALLMAP_TOOLTIP_SHOW_VEHICLES_ON_MAP                       :{BLACK}Weis d'Gefierer op der Kaart
+
+STR_SMALLMAP_TOOLTIP_SHOW_INDUSTRIES_ON_MAP                     :{BLACK}Weis d'Industrien op der Kaart
+
+STR_SMALLMAP_TOOLTIP_SHOW_TRANSPORT_ROUTES_ON                   :{BLACK}Weis d'Transportrouten op der Kaart
+
+STR_SMALLMAP_TOOLTIP_SHOW_VEGETATION_ON_MAP                     :{BLACK}Weis d'Vegetatioun op der Kaart
+
+STR_SMALLMAP_TOOLTIP_SHOW_LAND_OWNERS_ON_MAP                    :{BLACK}Weis d'Landbes�tzer op der Kaart
+
+
+STR_SMALLMAP_LEGENDA_ROADS                                      :{TINYFONT}{BLACK}Stroossen
+
+STR_SMALLMAP_LEGENDA_RAILROADS                                  :{TINYFONT}{BLACK}Schinnen
+
+STR_SMALLMAP_LEGENDA_STATIONS_AIRPORTS_DOCKS                    :{TINYFONT}{BLACK}Statiounen/Fluchhafen/Hafen
+
+STR_SMALLMAP_LEGENDA_BUILDINGS_INDUSTRIES                       :{TINYFONT}{BLACK}Gebaier/Industrien
+
+STR_SMALLMAP_LEGENDA_VEHICLES                                   :{TINYFONT}{BLACK}Gefierter
+
+STR_SMALLMAP_LEGENDA_100M                                       :{TINYFONT}{BLACK}100m
+
+STR_SMALLMAP_LEGENDA_200M                                       :{TINYFONT}{BLACK}200m
+
+STR_SMALLMAP_LEGENDA_300M                                       :{TINYFONT}{BLACK}300m
+
+STR_SMALLMAP_LEGENDA_400M                                       :{TINYFONT}{BLACK}400m
+
+STR_SMALLMAP_LEGENDA_500M                                       :{TINYFONT}{BLACK}500m
+
+STR_SMALLMAP_LEGENDA_TRAINS                                     :{TINYFONT}{BLACK}Zich
+
+STR_SMALLMAP_LEGENDA_ROAD_VEHICLES                              :{TINYFONT}{BLACK}Stroosengefierter
+
+STR_SMALLMAP_LEGENDA_SHIPS                                      :{TINYFONT}{BLACK}Sch�ffer
+
+STR_SMALLMAP_LEGENDA_AIRCRAFT                                   :{TINYFONT}{BLACK}Fligeren
+
+STR_SMALLMAP_LEGENDA_TRANSPORT_ROUTES                           :{TINYFONT}{BLACK}Transport Routen
+
+STR_SMALLMAP_LEGENDA_FOREST                                     :{TINYFONT}{BLACK}B�sch
+
+STR_SMALLMAP_LEGENDA_RAILROAD_STATION                           :{TINYFONT}{BLACK}Gare
+
+STR_SMALLMAP_LEGENDA_TRUCK_LOADING_BAY                          :{TINYFONT}{BLACK}Camionsluedeplaz
+
+STR_SMALLMAP_LEGENDA_BUS_STATION                                :{TINYFONT}{BLACK}Busgare
+
+STR_SMALLMAP_LEGENDA_AIRPORT_HELIPORT                           :{TINYFONT}{BLACK}Fluchhafen/Helicopterlandeplaz
+
+STR_SMALLMAP_LEGENDA_DOCK                                       :{TINYFONT}{BLACK}Hafen
+
+STR_SMALLMAP_LEGENDA_ROUGH_LAND                                 :{TINYFONT}{BLACK}Knubbelegt Land
+
+STR_SMALLMAP_LEGENDA_GRASS_LAND                                 :{TINYFONT}{BLACK}Grasland
+
+STR_SMALLMAP_LEGENDA_BARE_LAND                                  :{TINYFONT}{BLACK}Onerschlossend Land
+
+STR_SMALLMAP_LEGENDA_FIELDS                                     :{TINYFONT}{BLACK}Felder
+
+STR_SMALLMAP_LEGENDA_TREES                                      :{TINYFONT}{BLACK}Beem
+
+STR_SMALLMAP_LEGENDA_ROCKS                                      :{TINYFONT}{BLACK}Fielsen
+
+STR_SMALLMAP_LEGENDA_WATER                                      :{TINYFONT}{BLACK}Waasser
+
+STR_SMALLMAP_LEGENDA_NO_OWNER                                   :{TINYFONT}{BLACK}Keen Bes�tzer
+
+STR_SMALLMAP_LEGENDA_TOWNS                                      :{TINYFONT}{BLACK}Stied
+
+STR_SMALLMAP_LEGENDA_INDUSTRIES                                 :{TINYFONT}{BLACK}Industrien
+
+STR_SMALLMAP_LEGENDA_DESERT                                     :{TINYFONT}{BLACK}W�st
+
+STR_SMALLMAP_LEGENDA_SNOW                                       :{TINYFONT}{BLACK}Schn�i
+
+
+STR_SMALLMAP_TOOLTIP_TOGGLE_TOWN_NAMES_ON_OFF                   :{BLACK}Schalt d'Stiednimm op der Kaart un/aus
+
+STR_SMALLMAP_CENTER                                             :{BLACK}Zentr�iert d'kleng Kaart op d�i aktuell Positioun
+
+STR_SMALLMAP_INDUSTRY                                           :{TINYFONT}{STRING} ({NUM})
+
+STR_SMALLMAP_TOWN                                               :{TINYFONT}{WHITE}{TOWN}
+
+STR_SMALLMAP_DISABLE_ALL                                        :{BLACK}All ausschalten
+
+STR_SMALLMAP_ENABLE_ALL                                         :{BLACK}All unschalten
+
+
+# Status bar messages
+
+STR_STATUSBAR_TOOLTIP_SHOW_LAST_NEWS                            :{BLACK}Lescht Meldung …
